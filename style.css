@@ -1,0 +1,74 @@
+*{
+    font-family:Inter;
+    box-sizing: border-box;
+  }
+  h1{
+    text-align:center;
+    margin-top:30px;
+  }
+  #category{
+    text-align:center;
+    background-color: #F2F2F2;
+    padding: 8px 10px ;
+    
+    width: 500px;
+    max-width: 500px;
+    margin: auto;
+    
+    
+  }
+  
+  a{
+    text-decoration: none;
+    padding: 0 10px;
+    padding: 8px 10px ;
+    color: black;
+  }
+  .active{
+    background-color: black;
+  
+    color: white;
+  }
+
+  #group{
+    display: flex; 
+    gap: 10px;
+    margin: 20px;
+
+  }
+
+  #group > div{
+    display: flex;
+    /* width: 22vw; */
+    width: 100%;
+    gap:10px;
+  
+
+  }
+  img {
+    width:100%;
+    border-radius: 10px;
+    height: 500px;
+  }
+  .brand {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left:15px ;
+    
+  }
+  .discount{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255,0,0,0.5);
+  }
+
+  button{
+    width: 100%;
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+
+  }
